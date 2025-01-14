@@ -46,8 +46,6 @@ pageextension 50100 ItemListExt extends "Item List"
     local procedure ExportItemPictures(var Item: Record Item)
     var
         TempBlob: Codeunit "Temp Blob";
-        FileManagement: Codeunit "File Management";
-        ItemPictureOutStream: OutStream;
         ItemPictureInStream: InStream;
         ZipOutStream: OutStream;
         ZipInStream: InStream;
